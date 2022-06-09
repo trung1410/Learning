@@ -1,0 +1,198 @@
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: repeat(3,300px);
+    gap: 0px;
+    width: 1200px;
+    height: 900px;
+    
+}
+.item{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body{
+    background-color: white;
+}
+.img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.box{
+    top: 630px;
+    left: 830px;
+    width: 350px;
+    height: 250px;
+    transition: 1s all ease-in-out;
+}
+
+.container-grid .item-1:hover .box{
+    transform: translate();
+    transition: 1s all ease-in-out;
+    top: 30px;
+    left: 30px;
+    background-color: blue;
+    opacity: 0.5;
+}
+.container-grid .item-2:hover .box{
+    transition: 1s all ease-in-out;
+    top: 30px;
+    left: 430px;
+    background-color: red;
+    opacity: 0.5;
+}
+.container-grid .item-3:hover .box{
+    transform: translate3d(0, 0, 0);
+    transition: 1s all ease-in-out;
+    top: 30px;
+    left: 830px;
+    background-color: brown;
+    opacity: 0.5;
+}
+.container-grid .item-4:hover .box{
+    transform: translate3d(0, 0, 0);
+    transition: 1s all ease-in-out;
+    top: 330px;
+    left: 30px;
+    background-color: pink;
+    opacity: 0.5;
+}
+.item-5:hover .box{
+    transform: translate3d(0, 0, 0);
+    transition: 1s all ease-in-out;
+    top: 330px;
+    left: 430px;
+    background-color: violet;
+    opacity: 0.5;
+}
+.item-6:hover .box{
+    transform: translate3d(0, 0, 0);
+    transition: 1s all ease-in-out;
+    top: 330px;
+    left: 830px;
+    background-color: aqua;
+    opacity: 0.5;
+}
+.item-7:hover .box{
+    transform: translate3d(0, 0, 0);
+    transition: 1s all ease-in-out;
+    top: 630px;
+    left: 30px;
+    background-color: turquoise;
+    opacity: 0.5;
+}
+.item-8:hover .box{
+    transform: translate3d(0, 0, 0);
+    transition: 1s all ease-in-out;
+    top: 630px;
+    left: 430px;
+    background-color: teal;
+    opacity: 0.5;
+}
+.text-1{
+    width: fit-content;
+    height: fit-content;
+    transition: 1.5s all ease-in-out;
+    top: 120px;
+    left: 150px;
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+.text-2{
+    width: fit-content;
+    height: fit-content;
+    transition: 1.5s all ease-in-out;
+    top: 120px;
+    left: 550px;
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+.text-3{
+    width: fit-content;
+    height: fit-content;
+    transition: 1.5s all ease-in-out;
+    top: 120px;
+    left: 950px;
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+.text-4{
+    width: fit-content;
+    height: fit-content;
+    transition: 1.5s all ease-in-out;
+    top: 420px;
+    left: 150px;
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+.text-5{
+    width: fit-content;
+    height: fit-content;
+    transition: 1.5s all ease-in-out;
+    top: 420px;
+    left: 550px;
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+.text-6{
+    width: fit-content;
+    height: fit-content;
+    transition: 1.5s all ease-in-out;
+    top: 420px;
+    left: 950px;
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+.text-7{
+    width: fit-content;
+    height: fit-content;
+    transition: 1.5s all ease-in-out;
+    top: 720px;
+    left: 150px;
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+.text-8{
+    width: fit-content;
+    height: fit-content;
+    transition: 1.5s all ease-in-out;
+    top: 720px;
+    left: 550px;
+    color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+.item-1:hover .text-1{
+    color: black;
+}
+.item-2:hover .text-2{
+    color: black;
+}
+.item-3:hover .text-3{
+    color: black;
+}
+.item-4:hover .text-4{
+    color: black;
+}
+.item-5:hover .text-5{
+    color: black;
+}
+.item-6:hover .text-6{
+    color: black;
+}
+.item-7:hover .text-7{
+    color: black;
+}
+.item-8:hover .text-8{
+    color: black;
+}
+
