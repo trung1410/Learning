@@ -5,7 +5,7 @@
     gap: 0px;
     width: 1200px;
     height: 900px;
-    
+    margin: 0px auto;
 }
 .item{
     width: 100%;
@@ -26,9 +26,10 @@ body{
     width: 350px;
     height: 250px;
     transition: 1s all ease-in-out;
+    pointer-events: none;
+    position: absolute;
 }
-
-.container-grid .item-1:hover .box{
+.item-1:hover~.box{
     transform: translate();
     transition: 1s all ease-in-out;
     top: 30px;
@@ -36,61 +37,63 @@ body{
     background-color: blue;
     opacity: 0.5;
 }
-.container-grid .item-2:hover .box{
+.item-2:hover~.box{
+    transform: translate();
     transition: 1s all ease-in-out;
     top: 30px;
     left: 430px;
     background-color: red;
     opacity: 0.5;
 }
-.container-grid .item-3:hover .box{
-    transform: translate3d(0, 0, 0);
+.item-3:hover~.box{
+    transform: translate();
     transition: 1s all ease-in-out;
     top: 30px;
     left: 830px;
-    background-color: brown;
+    background-color: green;
     opacity: 0.5;
 }
-.container-grid .item-4:hover .box{
-    transform: translate3d(0, 0, 0);
+.item-4:hover~.box{
+    transform: translate();
     transition: 1s all ease-in-out;
     top: 330px;
     left: 30px;
-    background-color: pink;
-    opacity: 0.5;
-}
-.item-5:hover .box{
-    transform: translate3d(0, 0, 0);
-    transition: 1s all ease-in-out;
-    top: 330px;
-    left: 430px;
     background-color: violet;
     opacity: 0.5;
 }
-.item-6:hover .box{
-    transform: translate3d(0, 0, 0);
+.item-5:hover~.box{
+    transform: translate();
     transition: 1s all ease-in-out;
     top: 330px;
-    left: 830px;
+    left: 330px;
     background-color: aqua;
     opacity: 0.5;
 }
-.item-7:hover .box{
-    transform: translate3d(0, 0, 0);
+.item-6:hover~.box{
+    transform: translate();
+    transition: 1s all ease-in-out;
+    top: 330px;
+    left: 830px;
+    background-color: aquamarine;
+    opacity: 0.5;
+}
+.item-7:hover~.box{
+    transform: translate();
     transition: 1s all ease-in-out;
     top: 630px;
     left: 30px;
-    background-color: turquoise;
+    background-color: brown;
     opacity: 0.5;
 }
-.item-8:hover .box{
-    transform: translate3d(0, 0, 0);
+.item-8:hover~.box{
+    transform: translate();
     transition: 1s all ease-in-out;
     top: 630px;
     left: 430px;
-    background-color: teal;
+    background-color: antiquewhite  ;
     opacity: 0.5;
 }
+
 .text-1{
     width: fit-content;
     height: fit-content;
