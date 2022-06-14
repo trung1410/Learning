@@ -1,0 +1,236 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+.c-flex1{
+    width: 80%;
+    height: 330px;
+    flex-direction: row;
+    gap: 25px;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0px auto;
+    justify-content: center;
+}
+.item1-flex1{
+    width: 30%;
+    height: 100%;
+    background-color: #FEE4CB;
+    border-radius: 60px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.item2-flex1{
+    width: 30%;
+    height: 100%;
+    background-color: #E9E7FD;
+    border-radius: 60px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.item3-flex1{
+    width: 30%;
+    height: 100%;
+    background-color:  #DBF6FD;
+    border-radius: 60px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.c-flex2{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.item1-flex2{
+    color: 	#808080;
+    font-size: 19px;
+   
+}
+.dots{
+    content: "\22EE";
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: -25px;
+}
+.c-flex3{
+    margin-top: 20px;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: #5E5E5E;
+    font-family: 'DM Sans', sans-serif;
+    justify-content: space-between;
+    gap: 10px;
+}
+.item1-flex3{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+.item2-flex3{
+    font-size: 19px;
+}
+.c-flex4{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item3-flex4{
+    position: relative;
+    height: 25px;
+}
+.text-60{
+    position: absolute;
+    right: 0px;
+}
+.text-50{
+    position: absolute;
+    right: 0px;
+}
+.text-80{
+    position: absolute;
+    right: 0px;
+}
+.loading{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 7px;
+}
+.part-60{
+    width: 60%;
+    background-color: orange;
+    height: 100%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.another-60{
+    width: 40%;
+    background-color: white;
+    height: 100%;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.part-50{
+    width: 50%;
+    background-color: #503FF0;
+    height: 100%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.another-50{
+    width: 50%;
+    background-color: white;
+    height: 100%;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.part-80{
+    width: 80%;
+    background-color: #086C86;
+    height: 100%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.another-80{
+    width: 20%;
+    background-color: white;
+    height: 100%;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.item1-flex4{
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+}
+.item3-flex4{
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+}
+.white-line{
+    width: 120%;
+    height: 1px;
+    background-color: white;
+    margin-left: -25px;
+    margin-bottom: 20px;
+}
+.c-flex5{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.text-orange{
+    background-color: #FEF4EA;
+    border-radius: 60px;
+    padding: 5px 25px;
+    color: orange;
+    font-size: 19px;
+    font-weight: bold;
+}
+.text-purple{
+    background-color: #F6F5FD;
+    border-radius: 60px;
+    padding: 5px 25px;
+    color: #503FF0;
+    font-size: 19px;
+    font-weight: bold;
+}
+.text-green{
+    background-color: #F1FBFD;
+    border-radius: 60px;
+    padding: 5px 25px;
+    color: #086C86;
+    font-size: 19px;
+    font-weight: bold;
+}
+.circle{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.circle-1{
+    background-color: brown;
+}
+.circle-2{
+    left: 20px;
+    background-color: violet;
+    position: absolute;
+}
+.circle-add-orange{
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: orange;
+    font-weight: bold;
+    position: absolute;
+    left: 60px;
+}
+.circle-add-purple{
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #503FF0;
+    font-weight: bold;
+    position: absolute;
+    left: 60px;
+}
+.circle-add-green{
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #086C86;
+    font-weight: bold;
+    position: absolute;
+    left: 60px;
+}
