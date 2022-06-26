@@ -1,0 +1,177 @@
+body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: #474652;
+    gap: 0px;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+}
+.top{
+    width: 200px;
+    height: 50px;
+    background-color: #393842;
+    transform: skewX(30deg) rotateZ(-10deg);
+    transition: 0.5s all ease-in-out;
+}
+.left{
+    width: 36px;
+    height: 60px;
+    background-color: #2E2C32;
+    transform: skewY(53deg);
+    position: absolute;
+    top: 42px;
+    left: -6px;
+    transition: 0.5s all ease-in-out;
+    color: #8C8C93;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.bottom{
+    width: 177px;
+    height: 60px;
+    background-color: #403F46;
+    position: absolute;
+    top: 49px;
+    left: 30px;
+    transform: skewY(-11deg);
+    color: #8C8C93;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.5s all ease-in-out;
+ 
+}
+.box{
+    width: fit-content;
+    position: relative;
+    transition: 0.5s all ease-in-out;
+}
+.facebook:hover >.left{
+    background-color: #1350A6;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.facebook:hover >.bottom{
+    background-color: #1D77F3;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.facebook:hover >.top{
+    background-color: #176BD6;
+    transition: 0.5s all ease-in-out;
+}
+.twitter:hover >.left{
+    background-color: #186BAB;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.twitter:hover >.bottom{
+    background-color: #198BD1;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.twitter:hover >.top{
+    background-color: #2099E8;
+    transition: 0.5s all ease-in-out;
+}
+.whatsapp:hover >.left{
+    background-color: #1B8D45;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.whatsapp:hover >.bottom{
+    background-color: #28CF6B;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.whatsapp:hover >.top{
+    background-color: #25BB5A;
+    transition: 0.5s all ease-in-out;
+}
+.instagram:hover >.bottom{
+    background-color: #C5279F;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.instagram:hover >.left{
+    background-color: #831E6C;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.instagram:hover >.top{
+    background-color: #AF2593;
+    transition: 0.5s all ease-in-out;
+}
+.youtube:hover >.bottom{
+    background-color: #E51106;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.youtube:hover >.left{
+    background-color: #980C0C;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.youtube:hover >.top{
+    background-color: #CD1200;
+    transition: 0.5s all ease-in-out;
+}
+.linkedin:hover >.bottom{
+    background-color: #094E96;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.linkedin:hover >.left{
+    background-color: #07376D;
+    transition: 0.5s all ease-in-out;
+    color: white;
+}
+.linkedin:hover >.top{
+    background-color: #0B4E94;
+    transition: 0.5s all ease-in-out;
+}
+
+.box:hover{
+    transform: translate(-100px,20px);
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+.box:hover svg{
+    fill: white;
+    transition: 0.5s all ease-in-out;
+}
+svg{
+   
+    transition: 0.5s all ease-in-out;
+}
+.z-6{
+    z-index: 6;
+}
+.z-5{
+    z-index: 5;
+}
+.z-4{
+    z-index: 4;
+}
+.z-3{
+    z-index: 3;
+}
+.z-2{
+    z-index: 2;
+}
+.z-1{
+    z-index: 1;
+}
