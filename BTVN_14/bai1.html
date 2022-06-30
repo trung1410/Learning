@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container-popup{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        opacity: 0;
+    }
+    .p{
+        font-weight: bold;
+        color: brown;
+        font-size: 20px;
+    }
+    .popup{
+        height: 300px;
+        width: 500px;
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px black solid;
+        transition:  all 0.25s ease-in-out;
+        background-color: #ddd;
+        box-sizing: border-box;
+    }
+    .heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px black solid;
+        padding-left: 20px;
+    }
+    .body{
+        padding: 30px 20px;
+    }
+    #container.show{
+        opacity: 1;
+        pointer-events: all;
+    }
+    #btn_close{
+        border: none;
+        background-color: #ddd;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+    #container.show #popup{
+        top: 100px;
+    }
+    .loading-container{
+        width: 400px;
+        height: 30px;
+        background-color: gray;
+        border-radius: 5px;
+    }
+    .loading{
+        width: 0px;
+        height: 30px;
+        background-color: red;
+        border-radius: 5px;
+    }
+    .load{
+        width: 400px;
+        transition: 1s all ease-in-out;
+    }
+</style>
+<body>
+    <p class="p">Bài 1</p>
+    <button onclick='B1Function()'>Random string</button>
+    <br>
+    <p class="p">Bai 2</p>
+    <div>
+        Họ
+        <input id="firstName"  />
+        Tên
+        <input id="lastName"  />
+        <button onclick="B2Function()">Họ tên</button>
+    </div>
+    <p class="p">Bài 3</p>
+    <button onclick='B3Function()'>Result</button>
+    <br>
+    <p class="p">Bài 4</p>
+    <button onclick='B4Function()'>Random number</button>
+
+    <p class="p">Bài 5</p>
+    <p> Convert C to F</p>
+    Celsius
+    <input id="Celsius"/>
+    <button onclick='CtoF()'>Convert</button>
+    <p>Convert F to C</p>
+    Fahrenheit
+    <input id="Fahrenheit"/>
+    <button onclick='FtoC()'>Convert</button>
+    <p class="p">Bài 6</p>
+    <p>Convert F to C with random value of F</p>
+    <button onclick='RandomF()'>Convert</button>
+    <script src="./bai1.js"></script>
+    <p class="p">Bài 7</p>
+    <button id="btn_popup" onclick='popup()'>Open popup</button>
+    <div id="container" class="container-popup">
+        <div class="popup" id="popup">
+            <div class="heading">
+                <h3>This is a popup</h3>
+                <button id="btn_close" onclick='close()'>X</button>
+            </div>
+            <div class="body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, reiciendis dolore odit nesciunt dolorum ullam nisi. Similique aliquam reiciendis nesciunt, quidem voluptates dolor id. Voluptatem nulla tempore architecto dolores autem.</div>
+        </div>
+    </div>
+    <p class="p">Bài 8</p>
+    <button onclick='load()'>Loading</button><br><br>
+    <div class="loading-container">
+        <div id="load_part" class="loading"></div>
+    </div>
+    <p class="p">Bài 9</p>
+    <p id="text"></p>
+    <input id="input" onkeydown='onkey()'/>
+</body>
+</html>
