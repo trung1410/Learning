@@ -67,16 +67,22 @@ function onkey(){
     text.innerHTML = input.value;
 }
 function B10(){
-    let a = prompt("Mời bạn nhập giá trị của a!");
-    let b = prompt("Mời bạn nhập giá trị của b!");
-    let c = prompt("Mời bạn nhập giá trị của c!");
+    // let a = prompt("Mời bạn nhập giá trị của a!");
+    // let b = prompt("Mời bạn nhập giá trị của b!");
+    // let c = prompt("Mời bạn nhập giá trị của c!");
+    const a = document.getElementById('a').value;
+    const b = document.getElementById('b').value;
+    const c = document.getElementById('c').value;
+    let a1 = parseInt(a); 
+    let b1 = parseInt(b); 
+    let c1 = parseInt(c); 
     let max;
-    max = a;
-    if(max<b){
-        max = b;
+    max = a1;
+    if(max<b1){
+        max = b1;
     }
-    if(max <c){
-        max = c;
+    if(max <c1){
+        max = c1;
     }
     alert("Giá trị lớn nhất là: " + max);
 }
