@@ -66,3 +66,17 @@ function onkey(){
     const text = document.getElementById('text');
     text.innerHTML = input.value;
 }
+function B10(){
+    let a = prompt("Mời bạn nhập giá trị của a!");
+    let b = prompt("Mời bạn nhập giá trị của b!");
+    let c = prompt("Mời bạn nhập giá trị của c!");
+    let max;
+    max = a;
+    if(max<b){
+        max = b;
+    }
+    if(max <c){
+        max = c;
+    }
+    alert("Giá trị lớn nhất là: " + max);
+}
